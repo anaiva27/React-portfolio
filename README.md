@@ -8,7 +8,6 @@
 
 - [Description](#Description)
 - [Installation](#Installation)
-- [Usage](#Usage)
 - [License](#License)
 
 ## Description
@@ -27,8 +26,6 @@ npm start
 ```
 
 <br>
-
-## Usage
 
 
 ## License
