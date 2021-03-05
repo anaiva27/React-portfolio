@@ -1,0 +1,12 @@
+.row.contain {
+    margin-top: 5%;
+}
+
+.img-thumbnail.img-fluid.float-left.mr-3.responsive {
+    width: 250px;
+    height: 250px;
+}
+
+.box {
+    background-color: rgba(253, 252, 252, 0.637);
+}
