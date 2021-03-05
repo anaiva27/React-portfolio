@@ -1,10 +1,24 @@
+import s1 from "../img/screenshotWA.jpg"
+import s2 from "../img/screenshotWP.jpg"
+import s3 from "../img/screenshotWP2.jpg"
+import s4 from "../img/screenshotBB.jpg"
+import s5 from "../img/s1.jpg"
+import s6 from "../img/s3.png"
+import '../styles/about.css';
+
 export default function Portfolio(props) {
   return (
    
-    <div class="row">
+    <div className="row contain">
+    <div className="col-md-2"></div>
+    <div className="col-md-8">
+        <div className="card bg-transparent">
+            <div className="card-body box">
+
+    {/* <div class="row">
       <div class="col-md-10">
         <div class="card">
-          <div class="card-body">
+          <div class="card-body"> */}
             <h1 class="card-title">Portfolio</h1>
             <hr />
             <div class="row">
@@ -21,7 +35,7 @@ export default function Portfolio(props) {
                   >GitHub repository</a
                 ><br /><br />
                 <img
-                  src="img/screenshotWA.jpg"
+                  src={s1}
                   alt="weather app screnshot"
                   class="float-left mb-4 img-fluid"
                 />
@@ -47,12 +61,12 @@ export default function Portfolio(props) {
                   >GitHub repository</a
                 ><br /><br />
                 <img
-                  src="img/screenshotWP.jpg"
+                  src={s2}
                   alt="wedding planner app screnshot"
                   class="float-left mb-4 img-fluid"
                 />
                 <img
-                  src="img/screenshotWP2.jpg"
+                  src={s3}
                   alt="weather app screnshot"
                   class="float-left mb-4 img-fluid"
                 />
@@ -81,7 +95,7 @@ export default function Portfolio(props) {
                   >GitHub repository</a
                 ><br /><br />
                 <img
-                  src="img/screenshotBB.jpg"
+                  src={s4}
                   alt="wedding planner app screnshot"
                   class="float-left mb-4 img-fluid"
                 />
@@ -102,18 +116,18 @@ export default function Portfolio(props) {
                   >GitHub repository</a
                 ><br /><br />
                 <img
-                  src="img/s1.jpg"
+                  src={s5}
                   alt="signup page screenshot"
                   class="float-left mb-4 img-fluid"
                 />
                 <br/>
                 <img
-                  src="img/s3.png"
+                  src={s6}
                   alt="signup page screenshot"
                   class="float-left mb-4 img-fluid"
                 />
                 <p>
-                  This application allows students to create an account by signing up with an email and a password and then log into the account to access the information about topics that they want to study that could be marked as "completed" and the percentage of completion will be displayed in the progress bar. The app implements a variety of technologies and programming languages such as JavaScript, jQuery, HTML, CSS, SQL, API requests, Ajax calls, Express.js, Node.js, Passport.js, Sequelize, Nodemailer and Bcrypt. <br />Role: lead developer (produced about 90% of JS, HTML and CSS code)              
+                  This application allows students to create an account by signing up with an email and a password and then log into the account to access the information about topics that they want to study that could be marked as "completed" and the percentage of completion will be displayed in the progress bar. The app implements a variety of technologies and programming languages such as JavaScript, jQuery, HTML, CSS, SQL, API requests, Ajax calls, Express.js, Node.js, Passport.js, Sequelize, Nodemailer and Bcrypt. <br />Role: lead developer (produced 90% of JS, HTML and CSS code)              
                 </p>
               </div>
             </div>
@@ -121,7 +135,6 @@ export default function Portfolio(props) {
         </div>
       </div>
     </div>
-
   );
 }
 

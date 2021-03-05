@@ -5,12 +5,16 @@ function Header(props) {
   return (
     <nav className="navbar navbar-expand-lg sticky-top navbar-light bg-light">
       <Link to="/about" className="headerLink text-decoration-none" > <b> Anastasia Ivashchenko </b></Link>
-      <button className="navbar-toggler me-5" type="button" data-toggle="collapse" data-target="#navbarNav"
+      <button className="navbar-toggler me-5" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+      {/* <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
-      <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul className="navbar-nav ml-auto">
+      <div className="collapse navbar-collapse justify-content-end" id="navbarNav"> */}
+        <ul className="navbar-nav">
         
             <Link to="/about" className="headerLink" >About</Link>
          
