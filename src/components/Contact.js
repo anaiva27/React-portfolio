@@ -11,7 +11,7 @@ function Contact() {
                <div className="card-body box">
                     <h1>My Information</h1>
             <hr />
-            <p>My phone number: ‪(619) 451-4545‬</p>
+            <p>My phone number: ‪(619) 451-4577‬</p>
             <ContactLink type="email" href="mailto:ana.ivas27@gmail.com">
                 ana.ivas27@gmail.com
                         </ContactLink>
