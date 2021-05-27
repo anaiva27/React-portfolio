@@ -1,7 +1,7 @@
 import s1 from "../img/screenshotWA.jpg"
 import s2 from "../img/screenshotWP.jpg"
 import s3 from "../img/screenshotWP2.jpg"
-import s4 from "../img/screenshotBB.jpg"
+import s4 from "../img/01.png"
 import s5 from "../img/s1.jpg"
 import s6 from "../img/s3.png"
 import '../styles/about.css';
@@ -62,12 +62,12 @@ export default function Portfolio(props) {
                 ><br /><br />
                 <img
                   src={s2}
-                  alt="wedding planner app screnshot"
+                  alt="wedding planner app screenshot"
                   class="float-left mb-4 img-fluid"
                 />
                 <img
                   src={s3}
-                  alt="weather app screnshot"
+                  alt="weather app screenshot"
                   class="float-left mb-4 img-fluid"
                 />
                 <p>
@@ -83,24 +83,24 @@ export default function Portfolio(props) {
                   JavaScript, HTML and CSS structure.
                 </p>
                 <hr />
-                <h2>Burger Logger App</h2>
+                <h2>Google Books Search App</h2>
                 <a
-                  href="https://eat-the-burger-yum.herokuapp.com/"
+                  href="https://google-books-search-ana.herokuapp.com/"
                   target="blank"
                   >Deployed application</a
                 ><br />
                 <a
-                  href="https://github.com/anaiva27/Burger-Logger"
+                  href="https://github.com/anaiva27/Google-books"
                   target="blank"
                   >GitHub repository</a
                 ><br /><br />
                 <img
                   src={s4}
-                  alt="wedding planner app screnshot"
+                  alt="google books search app screenshot"
                   class="float-left mb-4 img-fluid"
                 />
                 <p>
-                  This application keeps track of items(burgers) that user inputs and then consumes. The code is organized according to the standarts of MVC framework. Utilizes JavaScript, SQL, jQuery, HTML, CSS,
+                This is a full-stack app that allows a user to search for a book using the Google Books API. Users may save books that they search for, or view the book in Google Books. Users may also delete books from the saved list. When a user saves a book, other users will be notified. The code is organized according to the standards of MVC framework. Utilizes JavaScript, SQL, jQuery, HTML, CSS,
                   API requests, ORM, Ajax calls, Express.js and Node.js.<br />Role: sole developer               
                 </p>
                 <hr />
